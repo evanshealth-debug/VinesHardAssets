@@ -1,0 +1,13 @@
+{
+  "name": "vines-hard-assets",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm --prefix vines-value-converter run dev",
+    "build": "npm --prefix vines-value-converter ci && npm --prefix vines-value-converter run build",
+    "preview": "npm --prefix vines-value-converter run preview"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
